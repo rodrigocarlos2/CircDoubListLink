@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -30,11 +31,12 @@ void main()
 {
     int ch;
  
-    printf("\n linked list\n");
-    printf("1.insert at beginning \n 2.insert at end\n 3.insert at position\n4.sort linked list\n 5.delete node at position\n 6.updatenodevalue\n7.search element \n8.displaylist from beginning\n9.display list from end\n10.exit ");
- 
     while (1)
     {
+    	
+    	printf("\n\n linked list\n");
+    	printf(" 1.insert at beginning \n 2.insert at end\n 3.insert at position\n 4.sort linked list\n 5.delete node at position\n 6.update node value \n 7.search element \n 8.display list from beginning \n 9.display list from end \n 10.exit ");
+    	printf("\n");
  
         printf("\n enter your choice:");
         scanf("%d", &ch);
